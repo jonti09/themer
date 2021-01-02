@@ -1,0 +1,46 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: ". Header Header Button";
+  background-color: #1c1d21;
+  color: #ffffff;
+
+  .header {
+    text-align: center;
+    grid-area: Header;
+  }
+
+  .buttons {
+    grid-area: Button;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 20px;
+
+    div {
+      margin: 5px;
+      width: 15px;
+      height: 15px;
+      border-radius: 10px;
+      color: #1c1d21;
+      cursor: pointer;
+      transition: 0.25s;
+
+      &:hover {
+        transform: scale(1.25);
+      }
+    }
+
+    .minimize {
+      background-color: #fcf300;
+    }
+
+    .maximize {
+      background-color: #008000;
+    }
+
+    .close {
+      background-color: #e63946;
+    }
+  }
+}
