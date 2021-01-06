@@ -1,0 +1,36 @@
+$blockHeight: 30px;
+$blockWidth: calc(100% / 8);
+
+.container {
+  padding: 10px 40px;
+
+  .blocksContainer {
+    margin: 0 0 20px;
+
+    .blocks {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      .block {
+        width: $blockWidth;
+        height: $blockHeight;
+      }
+    }
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .block {
+      width: $blockWidth;
+      height: $blockHeight;
+    }
+
+    .text {
+      margin: auto 20px;
+    }
+  }
+}

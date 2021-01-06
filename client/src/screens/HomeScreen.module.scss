@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "Card Card Card";
+  gap: 40px;
+  font-size: 12px;
+  margin: 20px 100px;
+
+  .card {
+    grid-area: Card;
+  }
+}

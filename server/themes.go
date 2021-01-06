@@ -6,7 +6,7 @@ import (
 	"path"
 )
 
-func getListOfThemes() ([]byte, error) {
+func GetListOfThemes() ([]byte, error) {
 	themesFile, err := os.Open(path.Join("data", "themes.json"))
 	defer themesFile.Close()
 

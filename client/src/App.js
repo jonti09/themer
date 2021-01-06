@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     const getThemes = async () => {
       const { themes } = await callAPI({ url: "/themes/", method: "GET" });
-      setThemes(themes.slice(0, 1));
+      setThemes(themes);
     };
 
     getThemes();

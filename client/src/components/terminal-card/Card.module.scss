@@ -1,0 +1,33 @@
+$horizontalShadowLength: 10px;
+$hoverHorizontalShadowLength: 10px;
+
+$verticalShadowLength: 10px;
+$HoverVerticalShadowLength: 10px;
+
+$blurRadiusLength: 10px;
+$HoverBlurRadiusLength: 10px;
+
+$spreadRadiusLength: 0;
+$HoverSpreadRadiusLength: 5px;
+
+$shadowColor: rgba(161, 161, 161, 0.75);
+$HoverShadowColor: rgba(161, 161, 161, 1);
+
+.card {
+  box-shadow: $horizontalShadowLength $verticalShadowLength $blurRadiusLength
+    $spreadRadiusLength $shadowColor;
+  -webkit-box-shadow: $horizontalShadowLength $verticalShadowLength
+    $blurRadiusLength $spreadRadiusLength $shadowColor;
+  -moz-box-shadow: $horizontalShadowLength $verticalShadowLength
+    $blurRadiusLength $spreadRadiusLength $shadowColor;
+  transition: 0.2s;
+
+  &:hover {
+    box-shadow: $hoverHorizontalShadowLength $HoverVerticalShadowLength
+      $HoverBlurRadiusLength $HoverSpreadRadiusLength $shadowColor;
+    -webkit-box-shadow: $hoverHorizontalShadowLength $HoverVerticalShadowLength
+      $HoverBlurRadiusLength $HoverSpreadRadiusLength $shadowColor;
+    -moz-box-shadow: $hoverHorizontalShadowLength $HoverVerticalShadowLength
+      $HoverBlurRadiusLength $HoverSpreadRadiusLength $HoverShadowColor;
+  }
+}

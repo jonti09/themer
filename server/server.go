@@ -12,7 +12,7 @@ func enableCORS(w *http.ResponseWriter) {
 
 func homePage(w http.ResponseWriter, r *http.Request) {
 	enableCORS(&w)
-	themes, err := getListOfThemes()
+	themes, err := GetListOfThemes()
 
 	if err != nil {
 		_, _ = fmt.Fprintf(w, err.Error())

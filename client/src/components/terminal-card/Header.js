@@ -3,7 +3,7 @@ import style from "./Header.module.scss";
 export const Header = ({ name }) => {
   return (
     <div className={style.container}>
-      <h4 className={style.header}>{name}</h4>
+      <h5 className={style.header}>{name}</h5>
       <div className={style.buttons}>
         <div className={style.minimize}></div>
         <div className={style.maximize}></div>
