@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+
 $blockHeight: 30px;
 $blockWidth: calc(100% / 8);
 
 .container {
+  font-family: "JetBrains Mono", serif;
   padding: 10px 40px;
 
   .blocksContainer {
@@ -31,6 +34,52 @@ $blockWidth: calc(100% / 8);
 
     .text {
       margin: auto 20px;
+    }
+  }
+
+  .cmdRow {
+    display: flex;
+    margin: 20px 0;
+    font-size: 18px;
+
+    .ini {
+      padding-right: 10px;
+    }
+
+    .cursor {
+      width: 10px;
+      height: inherit;
+      margin-left: 2px;
+      display: none;
+
+      &.active {
+        display: block;
+        animation: blink 0.75s steps(5, start) infinite;
+        -webkit-animation: blink 0.75s linear infinite alternate;
+
+        @keyframes blink {
+          0% {
+            opacity: 0;
+          }
+          50% {
+            opacity: 0.5;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+        @-webkit-keyframes blink {
+          0% {
+            opacity: 0;
+          }
+          50% {
+            opacity: 0.5;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+      }
     }
   }
 }

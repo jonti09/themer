@@ -59,24 +59,43 @@ const blocks = (theme) => {
   );
 };
 
-const colorRows = (theme) => {
+const applyThemeRow = (theme, isActive) => {
+  return (
+    <div className={style.cmdRow}>
+      <span style={{ color: theme.foreground }} className={style.ini}>
+        $
+      </span>
+      <span style={{ color: theme.red }} className={style.cmd}>
+        ./apply_these.sh
+      </span>
+      <div
+        contentEditable
+        className={style.cursor + " " + (isActive ? style.active : "")}
+        style={{ backgroundColor: theme.cursorColor }}
+      />
+    </div>
+  );
+};
+
+const colorRows = (theme, isActive) => {
   return (
     <>
       {blocks(theme)}
       {[...topRow, ...bottomRow].map((color, index) =>
         colorRow(theme["name"], theme[color], index)
       )}
+      {applyThemeRow(theme, isActive)}
     </>
   );
 };
 
-export const Body = ({ theme }) => {
+export const Body = ({ theme, isActive }) => {
   return (
     <div
       style={{ backgroundColor: theme.background, color: theme.foreground }}
       className={style.container}
     >
-      {colorRows(theme)}
+      {colorRows(theme, isActive)}
     </div>
   );
 };
