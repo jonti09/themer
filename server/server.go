@@ -2,7 +2,6 @@ package server
 
 import (
 	"fmt"
-	"log"
 	"net/http"
 )
 
@@ -21,7 +20,10 @@ func homePage(w http.ResponseWriter, r *http.Request) {
 	_, _ = w.Write(themes)
 }
 
+// StartAndListen method starts the server on 8000 port
 func StartAndListen() {
 	http.HandleFunc("/themes/", homePage)
-	log.Fatal(http.ListenAndServe(":8000", nil))
+	fmt.Printf("Starting the server on %d...\n", 8000)
+	http.ListenAndServe(":8000", nil)
+
 }
