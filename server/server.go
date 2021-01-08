@@ -2,6 +2,7 @@ package server
 
 import (
 	"fmt"
+	"log"
 	"net/http"
 )
 
@@ -24,6 +25,5 @@ func homePage(w http.ResponseWriter, r *http.Request) {
 func StartAndListen() {
 	http.HandleFunc("/themes/", homePage)
 	fmt.Printf("Starting the server on %d...\n", 8000)
-	http.ListenAndServe(":8000", nil)
-
+	log.Fatal(http.ListenAndServe(":8000", nil))
 }
