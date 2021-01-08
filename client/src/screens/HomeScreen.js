@@ -1,11 +1,9 @@
 import { useState } from "react";
-import { Card } from "../components/terminal-card";
+import { Card } from "../components/TerminalCard";
 import style from "./HomeScreen.module.scss";
 
 export const HomeScreen = ({ themes }) => {
   const [activeCard, setActiveCard] = useState(-1);
-
-  console.log("active", activeCard);
 
   const card = (theme, cardIndex) => {
     return (
@@ -20,8 +18,10 @@ export const HomeScreen = ({ themes }) => {
   };
 
   return (
-    <div className={style.container}>
-      {themes.map((theme, index) => card(theme, index))}
-    </div>
+    <>
+      <div className={style.container}>
+        {themes.map((theme, index) => card(theme, index))}
+      </div>
+    </>
   );
 };

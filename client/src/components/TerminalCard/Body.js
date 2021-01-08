@@ -69,7 +69,6 @@ const applyThemeRow = (theme, isActive) => {
         ./apply_these.sh
       </span>
       <div
-        contentEditable
         className={style.cursor + " " + (isActive ? style.active : "")}
         style={{ backgroundColor: theme.cursorColor }}
       />
