@@ -2,8 +2,6 @@
 
 A Golang powered, React rendered terminal theme utility <span style="font-size: 12px">(WIP)</span>
 
-<br>
-
 # Development
 
 Clone the project and move to the project directory
@@ -24,8 +22,6 @@ go run main.go
 ```
 
 Which will start the http server on `8000` port.
-
-<br>
 
 ## Client
 
