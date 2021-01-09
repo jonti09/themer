@@ -9,11 +9,11 @@
   }
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .container {
     grid-template-columns: 1fr;
     grid-template-areas: "Card";
-    margin: 20px 100px;
+    margin: 20px 50px;
   }
 }
 
