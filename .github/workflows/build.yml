@@ -4,7 +4,7 @@ name: Build
 on:
   push:
     branches:
-      - main
+      - actions
 
 jobs:
   # Set the job key. The key is displayed as the job name
@@ -29,9 +29,12 @@ jobs:
         run: cd client && npm install
 
       - name: Run Build Script
-        run: sudo bash ./build.sh
+        run: cd client && npm run build && mv build ../release
 
-      - uses: actions/upload-artifact@v2
+      - name: Publish
+        uses: meeDamian/github-release@2.0
         with:
-          name: public.tar.gz
-          path: ./public.tar.gz
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: v0.0.1
+          release: v0.0.1
+          files: release
