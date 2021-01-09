@@ -48,6 +48,6 @@ Once the installation is successful, you can change your terminal theme like fol
 
 - [x] Serve and display themes in browser
 - [x] Connect API endpoint to install the theme in terminal
-- [ ] Add pagination on client side
+- [x] Add pagination on client side
 - [ ] Remove dependency on NPM, serve built content
 - [ ] Build everything in a package, ready for distribution
