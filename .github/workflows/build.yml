@@ -29,26 +29,17 @@ jobs:
         run: cd client && npm install
 
       - name: Run Build Script
-        run: sudo bash ./build.sh
+        run: npm run build && mv build release
 
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-          draft: false
-          prerelease: false
+      - name: Set environment for github-release
+        run: |
+          echo ::set-env name=RELEASE_TAG::"v1.0.0"
+          echo ::set-env name=RELEASE_NAME::"v1.0.0"
 
-      - name: Upload Release Asset
-        id: upload-release-asset
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish
+        uses: meeDamian/github-release@2.0
         with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps
-          asset_path: ./public.tar.gz
-          asset_name: public.tar.gz
-          asset_content_type: application/tar+gzip
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ env.RELEASE_TAG }}
+          name: ${{ env.RELEASE_NAME }}
+          files: ./client/release
