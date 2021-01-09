@@ -4,7 +4,7 @@ name: Build
 on:
   push:
     branches:
-      - actions
+      - main
 
 jobs:
   # Set the job key. The key is displayed as the job name
