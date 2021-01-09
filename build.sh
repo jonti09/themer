@@ -6,5 +6,5 @@ npm run build
 
 # create tar of build files
 cd build
-tar -cvzf ../public.tar.gz *
+tar -cvzf ../../public.tar.gz *
 rm -rf ../build
