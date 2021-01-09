@@ -37,10 +37,6 @@ jobs:
           # Defaults to "Apply automatic changes"
           commit_message: "Built the static media"
 
-          # Optional branch name where commit should be pushed to
-          # Defaults to the current branch
-          branch: actions
-
           # Optional commit user and author settings
           commit_user_name: GitHub Actions Bot
           commit_user_email: github@actions.com # defaults to "actions@github.com"
