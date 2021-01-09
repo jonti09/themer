@@ -39,7 +39,7 @@ jobs:
 
           # Optional branch name where commit should be pushed to
           # Defaults to the current branch
-          branch: actions
+          branch: main
 
           # Optional commit user and author settings
           commit_user_name: GitHub Actions Bot
