@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Card } from "../components/TerminalCard";
 import style from "./HomeScreen.module.scss";
 
-export const HomeScreen = ({ themes }) => {
+export const HomeScreen = ({ themes, applyTheme }) => {
   const [activeCard, setActiveCard] = useState(-1);
 
   const card = (theme, cardIndex) => {
@@ -11,6 +11,7 @@ export const HomeScreen = ({ themes }) => {
         <Card
           theme={theme}
           isActive={activeCard === cardIndex}
+          applyTheme={applyTheme}
           className={style.card}
         />
       </div>
