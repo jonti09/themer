@@ -1,8 +1,14 @@
 #!/bin/bash
 
-cd client
-npm run build
+if [ $1 == 'dev' ]
+then
+    go run main.go
+else
+    cd client
+    npm run build
 
-mv build ../public
+    cp -r build/* ../public/
+    rm -rf build
 
-go run main.go
+    cd ..
+fi
