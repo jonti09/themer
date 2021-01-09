@@ -29,7 +29,7 @@ jobs:
         run: cd client && npm install
 
       - name: Run Build Script
-        run: cd client && npm run build && mv build release
+        run: cd client && npm run build && mv build ../release
 
       - name: Publish
         uses: meeDamian/github-release@2.0
@@ -37,4 +37,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: v0.0.1
           release: v0.0.1
-          files: ./client/release
+          files: release
