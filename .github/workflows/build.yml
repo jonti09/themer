@@ -31,15 +31,8 @@ jobs:
       - name: Run Build Script
         run: cd client && npm run build && mv build release
 
-      - name: Set environment for github-release
-        run: |
-          echo ::set-env name=RELEASE_TAG::"v1.0.0"
-          echo ::set-env name=RELEASE_NAME::"v1.0.0"
-
       - name: Publish
         uses: meeDamian/github-release@2.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ env.RELEASE_TAG }}
-          name: ${{ env.RELEASE_NAME }}
           files: ./client/release
