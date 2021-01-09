@@ -22,11 +22,16 @@ const getBaseURL = () => {
   return baseUrl;
 };
 
-export const callAPI = async ({ url, method }) => {
+export const callAPI = async ({ url, method, formData }) => {
+  const headers = { "Content-Type": "application/json" };
+
   const { data } = await axios({
     baseURL: getBaseURL(),
     url,
     method,
+    headers,
+    data: formData,
   });
+
   return data;
 };

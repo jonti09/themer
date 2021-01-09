@@ -7,14 +7,24 @@ function App() {
 
   useEffect(() => {
     const getThemes = async () => {
-      const { themes } = await callAPI({ url: "/themes/", method: "GET" });
-      setThemes(themes);
+      try {
+        const { themes } = await callAPI({ url: "/themes/", method: "GET" });
+        setThemes(themes);
+      } catch (e) {}
     };
 
     getThemes();
   }, []);
 
-  return <HomeScreen themes={themes} />;
+  const applyTheme = async (themeName) => {
+    await callAPI({
+      url: "/apply/",
+      method: "POST",
+      formData: { theme: themeName },
+    });
+  };
+
+  return <HomeScreen themes={themes} applyTheme={applyTheme} />;
 }
 
 export default App;

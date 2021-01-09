@@ -1,12 +1,35 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-areas: ". Header Header Button";
+  grid-template-areas: "Apply Header Header Button";
   background-color: #1c1d21;
   color: #ffffff;
 
   h5 {
     margin: 10px;
+  }
+
+  .apply {
+    grid-area: Apply;
+    display: flex;
+    align-items: center;
+
+    svg {
+      cursor: pointer;
+      height: 20px;
+      padding: 5px 10px;
+      transition: 0.25s;
+    }
+
+    .applied {
+      transform: scale(0.75);
+    }
+
+    .apply {
+      &:hover {
+        transform: scale(1.25);
+      }
+    }
   }
 
   .header {
