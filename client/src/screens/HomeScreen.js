@@ -1,9 +1,18 @@
 import { useState } from "react";
+import { Pagination } from "../components/Pagination";
 import { Card } from "../components/TerminalCard";
 import style from "./HomeScreen.module.scss";
 
+const itemsPerPage = 9;
+
 export const HomeScreen = ({ themes, applyTheme }) => {
   const [activeCard, setActiveCard] = useState(-1);
+  const [activePage, setActivePage] = useState(1);
+
+  const themesForPage = themes.slice(
+    activePage * itemsPerPage,
+    (activePage + 1) * itemsPerPage
+  );
 
   const card = (theme, cardIndex) => {
     return (
@@ -20,8 +29,13 @@ export const HomeScreen = ({ themes, applyTheme }) => {
 
   return (
     <>
+      <Pagination
+        pages={themes.length / itemsPerPage}
+        activePage={activePage}
+        setActivePage={setActivePage}
+      />
       <div className={style.container}>
-        {themes.map((theme, index) => card(theme, index))}
+        {themesForPage.map((theme, index) => card(theme, index))}
       </div>
     </>
   );
