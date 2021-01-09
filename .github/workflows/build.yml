@@ -38,3 +38,4 @@ jobs:
           tag: v0.0.1
           release: v0.0.1
           files: release
+          allow_override: true
