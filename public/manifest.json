@@ -1,7 +1,0 @@
-{
-  "short_name": "Themer",
-  "name": "A web-based theme changer",
-  "icons": [],
-  "start_url": ".",
-  "display": "standalone"
-}

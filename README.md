@@ -42,7 +42,7 @@ Once the server and client are running, you can install the theme using the `dow
 
 Once the installation is successful, you can change your terminal theme like following screenshot (check the `Profiles` section)
 
-![alt text](https://github.com/jonti09/themer/blob/main/public/images/theme-selection.png?raw=true)
+![alt text](https://github.com/jonti09/themer/blob/main/assets/images/theme-selection.png?raw=true)
 
 ## Features
 
