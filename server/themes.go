@@ -1,8 +1,11 @@
 package server
 
 import (
+	"fmt"
 	"io/ioutil"
+	"log"
 	"os"
+	"os/exec"
 	"path"
 )
 
@@ -18,4 +21,16 @@ func GetListOfThemes() ([]byte, error) {
 	}
 
 	return themesBytes, nil
+}
+
+// ApplyTheme function takes a theme name and installs it in current terminal
+func ApplyTheme(theme string) ([]byte, error) {
+	log.Println("Applying the theme " + theme + " ...")
+	cwd, _ := os.Getwd()
+	themeFilePath := path.Join(cwd, "data", "themes", theme)
+	cmd := exec.Command("x-terminal-emulator", "-e", "bash", themeFilePath)
+
+	fmt.Println(cmd)
+
+	return cmd.CombinedOutput()
 }

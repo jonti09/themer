@@ -1,7 +1,8 @@
 {
   "themes": [
     {
-      "name": "3024Day",
+      "name": "3024-day.sh",
+      "label": "3024Day",
       "black": "#090300",
       "red": "#db2d20",
       "green": "#01a252",
@@ -23,7 +24,8 @@
       "cursorColor": "#4a4543"
     },
     {
-      "name": "3024Night",
+      "name": "3024-night.sh",
+      "label": "3024Night",
       "black": "#090300",
       "red": "#db2d20",
       "green": "#01a252",
@@ -45,7 +47,8 @@
       "cursorColor": "#a5a2a2"
     },
     {
-      "name": "Aci",
+      "name": "aci.sh",
+      "label": "Aci",
       "black": "#363636",
       "red": "#ff0883",
       "green": "#83ff08",
@@ -67,7 +70,8 @@
       "cursorColor": "#b4e1fd"
     },
     {
-      "name": "Aco",
+      "name": "aco.sh",
+      "label": "Aco",
       "black": "#3f3f3f",
       "red": "#ff0883",
       "green": "#83ff08",
@@ -89,7 +93,8 @@
       "cursorColor": "#b4e1fd"
     },
     {
-      "name": "AdventureTime",
+      "name": "adventuretime.sh",
+      "label": "AdventureTime",
       "black": "#050404",
       "red": "#bd0013",
       "green": "#4ab118",
@@ -111,7 +116,8 @@
       "cursorColor": "#f8dcc0"
     },
     {
-      "name": "Afterglow",
+      "name": "afterglow.sh",
+      "label": "Afterglow",
       "black": "#151515",
       "red": "#a53c23",
       "green": "#7b9246",
@@ -133,7 +139,8 @@
       "cursorColor": "#d0d0d0"
     },
     {
-      "name": "AlienBlood",
+      "name": "alien-blood.sh",
+      "label": "AlienBlood",
       "black": "#112616",
       "red": "#7f2b27",
       "green": "#2f7e25",
@@ -155,7 +162,8 @@
       "cursorColor": "#637d75"
     },
     {
-      "name": "Argonaut",
+      "name": "argonaut.sh",
+      "label": "Argonaut",
       "black": "#232323",
       "red": "#ff000f",
       "green": "#8ce10b",
@@ -177,7 +185,8 @@
       "cursorColor": "#fffaf4"
     },
     {
-      "name": "Arthur",
+      "name": "arthur.sh",
+      "label": "Arthur",
       "black": "#3d352a",
       "red": "#cd5c5c",
       "green": "#86af80",
@@ -199,7 +208,8 @@
       "cursorColor": "#ddeedd"
     },
     {
-      "name": "Atom",
+      "name": "atom.sh",
+      "label": "Atom",
       "black": "#000000",
       "red": "#fd5ff1",
       "green": "#87c38a",
@@ -221,7 +231,8 @@
       "cursorColor": "#c5c8c6"
     },
     {
-      "name": "Azu",
+      "name": "azu.sh",
+      "label": "Azu",
       "black": "#000000",
       "red": "#ac6d74",
       "green": "#74ac6d",
@@ -243,7 +254,8 @@
       "cursorColor": "#d9e6f2"
     },
     {
-      "name": "_bash",
+      "name": "_base.sh",
+      "label": "_bash",
       "black": "#292D3E",
       "red": "#F07178",
       "green": "#C3E88D",
@@ -265,7 +277,8 @@
       "cursorColor": "#BFC7D5"
     },
     {
-      "name": "BelafonteDay",
+      "name": "belafonte-day.sh",
+      "label": "BelafonteDay",
       "black": "#20111b",
       "red": "#be100e",
       "green": "#858162",
@@ -287,7 +300,8 @@
       "cursorColor": "#45373c"
     },
     {
-      "name": "BelafonteNight",
+      "name": "belafonte-night.sh",
+      "label": "BelafonteNight",
       "black": "#20111b",
       "red": "#be100e",
       "green": "#858162",
@@ -309,7 +323,8 @@
       "cursorColor": "#968c83"
     },
     {
-      "name": "Bim",
+      "name": "bim.sh",
+      "label": "Bim",
       "black": "#2c2423",
       "red": "#f557a0",
       "green": "#a9ee55",
@@ -331,7 +346,8 @@
       "cursorColor": "#a9bed8"
     },
     {
-      "name": "BirdsOfParadise",
+      "name": "birds-of-paradise.sh",
+      "label": "BirdsOfParadise",
       "black": "#573d26",
       "red": "#be2d26",
       "green": "#6ba18a",
@@ -353,7 +369,8 @@
       "cursorColor": "#e0dbb7"
     },
     {
-      "name": "Blazer",
+      "name": "blazer.sh",
+      "label": "Blazer",
       "black": "#000000",
       "red": "#b87a7a",
       "green": "#7ab87a",
@@ -375,7 +392,8 @@
       "cursorColor": "#d9e6f2"
     },
     {
-      "name": "BlulocoLight",
+      "name": "bluloco-light.sh",
+      "label": "BlulocoLight",
       "black": "#d5d6dd",
       "red": "#d52753",
       "green": "#23974a",
@@ -397,7 +415,8 @@
       "cursorColor": "#383a42"
     },
     {
-      "name": "Borland",
+      "name": "borland.sh",
+      "label": "Borland",
       "black": "#4f4f4f",
       "red": "#ff6c60",
       "green": "#a8ff60",
@@ -419,7 +438,8 @@
       "cursorColor": "#ffff4e"
     },
     {
-      "name": "Broadcast",
+      "name": "broadcast.sh",
+      "label": "Broadcast",
       "black": "#000000",
       "red": "#da4939",
       "green": "#519f50",
@@ -441,7 +461,8 @@
       "cursorColor": "#e6e1dc"
     },
     {
-      "name": "Brogrammer",
+      "name": "brogrammer.sh",
+      "label": "Brogrammer",
       "black": "#1f1f1f",
       "red": "#f81118",
       "green": "#2dc55e",
@@ -463,7 +484,8 @@
       "cursorColor": "#d6dbe5"
     },
     {
-      "name": "C64",
+      "name": "c64.sh",
+      "label": "C64",
       "black": "#090300",
       "red": "#883932",
       "green": "#55a049",
@@ -485,7 +507,8 @@
       "cursorColor": "#7869c4"
     },
     {
-      "name": "Cai",
+      "name": "cai.sh",
+      "label": "Cai",
       "black": "#000000",
       "red": "#ca274d",
       "green": "#4dca27",
@@ -507,7 +530,8 @@
       "cursorColor": "#d9e6f2"
     },
     {
-      "name": "Chalkboard",
+      "name": "chalkboard.sh",
+      "label": "Chalkboard",
       "black": "#000000",
       "red": "#c37372",
       "green": "#72c373",
@@ -529,7 +553,8 @@
       "cursorColor": "#d9e6f2"
     },
     {
-      "name": "Chalk",
+      "name": "chalk.sh",
+      "label": "Chalk",
       "black": "#646464",
       "red": "#F58E8E",
       "green": "#A9D3AB",
@@ -551,7 +576,8 @@
       "cursorColor": "#D4D4D4"
     },
     {
-      "name": "Ciapre",
+      "name": "ciapre.sh",
+      "label": "Ciapre",
       "black": "#181818",
       "red": "#810009",
       "green": "#48513b",
@@ -573,7 +599,8 @@
       "cursorColor": "#aea47a"
     },
     {
-      "name": "CloneofUbuntu",
+      "name": "clone-of-ubuntu.sh",
+      "label": "CloneofUbuntu",
       "black": "#2E3436",
       "red": "#CC0000",
       "green": "#4E9A06",
@@ -595,7 +622,8 @@
       "cursorColor": "#ffffff"
     },
     {
-      "name": "CLRS",
+      "name": "clrs.sh",
+      "label": "CLRS",
       "black": "#000000",
       "red": "#f8282a",
       "green": "#328a5d",
@@ -617,7 +645,8 @@
       "cursorColor": "#262626"
     },
     {
-      "name": "Cobalt2",
+      "name": "cobalt2.sh",
+      "label": "Cobalt2",
       "black": "#000000",
       "red": "#ff0000",
       "green": "#38de21",
@@ -639,7 +668,8 @@
       "cursorColor": "#ffffff"
     },
     {
-      "name": "CobaltNeon",
+      "name": "cobalt-neon.sh",
+      "label": "CobaltNeon",
       "black": "#142631",
       "red": "#ff2320",
       "green": "#3ba5ff",
@@ -661,7 +691,8 @@
       "cursorColor": "#8ff586"
     },
     {
-      "name": "Colorcli",
+      "name": "colorcli.sh",
+      "label": "Colorcli",
       "black": "#000000",
       "red": "#D70000",
       "green": "#5FAF00",
@@ -683,7 +714,8 @@
       "cursorColor": "#005F87"
     },
     {
-      "name": "CrayonPonyFish",
+      "name": "crayon-pony-fish.sh",
+      "label": "CrayonPonyFish",
       "black": "#2b1b1d",
       "red": "#91002b",
       "green": "#579524",
@@ -705,7 +737,8 @@
       "cursorColor": "#68525a"
     },
     {
-      "name": "DarkPastel",
+      "name": "dark-pastel.sh",
+      "label": "DarkPastel",
       "black": "#000000",
       "red": "#ff5555",
       "green": "#55ff55",
@@ -727,7 +760,8 @@
       "cursorColor": "#ffffff"
     },
     {
-      "name": "Darkside",
+      "name": "darkside.sh",
+      "label": "Darkside",
       "black": "#000000",
       "red": "#e8341c",
       "green": "#68c256",
@@ -749,7 +783,8 @@
       "cursorColor": "#bababa"
     },
     {
-      "name": "Desert",
+      "name": "desert.sh",
+      "label": "Desert",
       "black": "#4d4d4d",
       "red": "#ff2b2b",
       "green": "#98fb98",
@@ -771,7 +806,8 @@
       "cursorColor": "#ffffff"
     },
     {
-      "name": "DimmedMonokai",
+      "name": "dimmed-monokai.sh",
+      "label": "DimmedMonokai",
       "black": "#3a3d43",
       "red": "#be3f48",
       "green": "#879a3b",
@@ -793,7 +829,8 @@
       "cursorColor": "#b9bcba"
     },
     {
-      "name": "Dracula",
+      "name": "dracula.sh",
+      "label": "Dracula",
       "black": "#44475a",
       "red": "#ff5555",
       "green": "#50fa7b",
@@ -815,7 +852,8 @@
       "cursorColor": "#94A3A5"
     },
     {
-      "name": "Earthsong",
+      "name": "earthsong.sh",
+      "label": "Earthsong",
       "black": "#121418",
       "red": "#c94234",
       "green": "#85c54c",
@@ -837,7 +875,8 @@
       "cursorColor": "#e5c7a9"
     },
     {
-      "name": "Elemental",
+      "name": "elemental.sh",
+      "label": "Elemental",
       "black": "#3c3c30",
       "red": "#98290f",
       "green": "#479a43",
@@ -859,7 +898,8 @@
       "cursorColor": "#807a74"
     },
     {
-      "name": "Elementary",
+      "name": "elementary.sh",
+      "label": "Elementary",
       "black": "#303030",
       "red": "#e1321a",
       "green": "#6ab017",
@@ -881,7 +921,8 @@
       "cursorColor": "#f2f2f2"
     },
     {
-      "name": "Elic",
+      "name": "elic.sh",
+      "label": "Elic",
       "black": "#303030",
       "red": "#e1321a",
       "green": "#6ab017",
@@ -903,7 +944,8 @@
       "cursorColor": "#f2f2f2"
     },
     {
-      "name": "Elio",
+      "name": "elio.sh",
+      "label": "Elio",
       "black": "#303030",
       "red": "#e1321a",
       "green": "#6ab017",
@@ -925,7 +967,8 @@
       "cursorColor": "#f2f2f2"
     },
     {
-      "name": "EspressoLibre",
+      "name": "espresso-libre.sh",
+      "label": "EspressoLibre",
       "black": "#000000",
       "red": "#cc0000",
       "green": "#1a921c",
@@ -947,7 +990,8 @@
       "cursorColor": "#b8a898"
     },
     {
-      "name": "Espresso",
+      "name": "espresso.sh",
+      "label": "Espresso",
       "black": "#353535",
       "red": "#d25252",
       "green": "#a5c261",
@@ -969,7 +1013,8 @@
       "cursorColor": "#ffffff"
     },
     {
-      "name": "FairyFlossDark",
+      "name": "fairyflossdark.sh",
+      "label": "FairyFlossDark",
       "black": "#42395D",
       "red": "#A8757B",
       "green": "#FF857F",
@@ -991,7 +1036,8 @@
       "cursorColor": "#FFB8D1"
     },
     {
-      "name": "FairyFloss",
+      "name": "fairyfloss.sh",
+      "label": "FairyFloss",
       "black": "#42395D",
       "red": "#A8757B",
       "green": "#FF857F",
@@ -1013,7 +1059,8 @@
       "cursorColor": "#FFB8D1"
     },
     {
-      "name": "Fishtank",
+      "name": "fishtank.sh",
+      "label": "Fishtank",
       "black": "#03073c",
       "red": "#c6004a",
       "green": "#acf157",
@@ -1035,7 +1082,8 @@
       "cursorColor": "#ecf0fe"
     },
     {
-      "name": "Flatland",
+      "name": "flatland.sh",
+      "label": "Flatland",
       "black": "#1d1d19",
       "red": "#f18339",
       "green": "#9fd364",
@@ -1057,7 +1105,8 @@
       "cursorColor": "#b8dbef"
     },
     {
-      "name": "FlatRemix",
+      "name": "flat-remix.sh",
+      "label": "FlatRemix",
       "black": "#1F2229",
       "red": "#D41919",
       "green": "#5EBDAB",
@@ -1079,7 +1128,8 @@
       "cursorColor": "#FFFFFF"
     },
     {
-      "name": "Flat",
+      "name": "flat.sh",
+      "label": "Flat",
       "black": "#2c3e50",
       "red": "#c0392b",
       "green": "#27ae60",
@@ -1101,7 +1151,8 @@
       "cursorColor": "#1abc9c"
     },
     {
-      "name": "Foxnightly",
+      "name": "foxnightly.sh",
+      "label": "Foxnightly",
       "black": "#2A2A2E",
       "red": "#B98EFF",
       "green": "#FF7DE9",
@@ -1123,7 +1174,8 @@
       "cursorColor": "#D7D7DB"
     },
     {
-      "name": "Freya",
+      "name": "freya.sh",
+      "label": "Freya",
       "black": "#073642",
       "red": "#dc322f",
       "green": "#859900",
@@ -1145,7 +1197,8 @@
       "cursorColor": "#839496"
     },
     {
-      "name": "FrontendDelight",
+      "name": "frontend-delight.sh",
+      "label": "FrontendDelight",
       "black": "#242526",
       "red": "#f8511b",
       "green": "#565747",
@@ -1167,7 +1220,8 @@
       "cursorColor": "#adadad"
     },
     {
-      "name": "FrontendFunForrest",
+      "name": "frontend-fun-forrest.sh",
+      "label": "FrontendFunForrest",
       "black": "#000000",
       "red": "#d6262b",
       "green": "#919c00",
@@ -1189,7 +1243,8 @@
       "cursorColor": "#dec165"
     },
     {
-      "name": "FrontendGalaxy",
+      "name": "frontend-galaxy.sh",
+      "label": "FrontendGalaxy",
       "black": "#000000",
       "red": "#f9555f",
       "green": "#21b089",
@@ -1211,7 +1266,8 @@
       "cursorColor": "#ffffff"
     },
     {
-      "name": "GeoHot",
+      "name": "geohot.sh",
+      "label": "GeoHot",
       "black": "#F9F5F5",
       "red": "#CC0000",
       "green": "#1F1E1F",
@@ -1233,7 +1289,8 @@
       "cursorColor": "#FFFFFF"
     },
     {
-      "name": "Github",
+      "name": "github.sh",
+      "label": "Github",
       "black": "#3e3e3e",
       "red": "#970b16",
       "green": "#07962a",
@@ -1255,7 +1312,8 @@
       "cursorColor": "#3e3e3e"
     },
     {
-      "name": "gooey",
+      "name": "gooey.sh",
+      "label": "gooey",
       "black": "#000009",
       "red": "#BB4F6C",
       "green": "#72CCAE",
@@ -1277,7 +1335,8 @@
       "cursorColor": "#EBEEF9"
     },
     {
-      "name": "base16:Google(dark)",
+      "name": "google-dark.sh",
+      "label": "base16:Google(dark)",
       "black": "#1D1F21",
       "red": "#CC342B",
       "green": "#198844",
@@ -1299,7 +1358,8 @@
       "cursorColor": "#B4B7B4"
     },
     {
-      "name": "base16:Google(light)",
+      "name": "google-light.sh",
+      "label": "base16:Google(light)",
       "black": "#FFFFFF",
       "red": "#CC342B",
       "green": "#198844",
@@ -1321,7 +1381,8 @@
       "cursorColor": "#373B41"
     },
     {
-      "name": "gotham",
+      "name": "gotham.sh",
+      "label": "gotham",
       "black": "#0a0f14",
       "red": "#c33027",
       "green": "#26a98b",
@@ -1343,7 +1404,8 @@
       "cursorColor": "#98d1ce"
     },
     {
-      "name": "Grape",
+      "name": "grape.sh",
+      "label": "Grape",
       "black": "#2d283f",
       "red": "#ed2261",
       "green": "#1fa91b",
@@ -1365,7 +1427,8 @@
       "cursorColor": "#9f9fa1"
     },
     {
-      "name": "Grass",
+      "name": "grass.sh",
+      "label": "Grass",
       "black": "#000000",
       "red": "#bb0000",
       "green": "#00bb00",
@@ -1387,7 +1450,8 @@
       "cursorColor": "#fff0a5"
     },
     {
-      "name": "GruvboxDark",
+      "name": "gruvbox-dark.sh",
+      "label": "GruvboxDark",
       "black": "#282828",
       "red": "#cc241d",
       "green": "#98971a",
@@ -1409,7 +1473,8 @@
       "cursorColor": "#ebdbb2"
     },
     {
-      "name": "Gruvbox",
+      "name": "gruvbox.sh",
+      "label": "Gruvbox",
       "black": "#fbf1c7",
       "red": "#cc241d",
       "green": "#98971a",
@@ -1431,7 +1496,8 @@
       "cursorColor": "#3c3836"
     },
     {
-      "name": "Hardcore",
+      "name": "hardcore.sh",
+      "label": "Hardcore",
       "black": "#1b1d1e",
       "red": "#f92672",
       "green": "#a6e22e",
@@ -1453,7 +1519,8 @@
       "cursorColor": "#a0a0a0"
     },
     {
-      "name": "Harper",
+      "name": "harper.sh",
+      "label": "Harper",
       "black": "#010101",
       "red": "#f8b63f",
       "green": "#7fb5e1",
@@ -1475,7 +1542,8 @@
       "cursorColor": "#a8a49d"
     },
     {
-      "name": "HemisuDark",
+      "name": "hemisu-dark.sh",
+      "label": "HemisuDark",
       "black": "#444444",
       "red": "#FF0054",
       "green": "#B1D630",
@@ -1497,7 +1565,8 @@
       "cursorColor": "#BAFFAA"
     },
     {
-      "name": "HemisuLight",
+      "name": "hemisu-light.sh",
+      "label": "HemisuLight",
       "black": "#777777",
       "red": "#FF0055",
       "green": "#739100",
@@ -1519,7 +1588,8 @@
       "cursorColor": "#FF0054"
     },
     {
-      "name": "Highway",
+      "name": "highway.sh",
+      "label": "Highway",
       "black": "#000000",
       "red": "#d00e18",
       "green": "#138034",
@@ -1541,7 +1611,8 @@
       "cursorColor": "#ededed"
     },
     {
-      "name": "HipsterGreen",
+      "name": "hipster-green.sh",
+      "label": "HipsterGreen",
       "black": "#000000",
       "red": "#b6214a",
       "green": "#00a600",
@@ -1563,7 +1634,8 @@
       "cursorColor": "#84c138"
     },
     {
-      "name": "Homebrew",
+      "name": "homebrew.sh",
+      "label": "Homebrew",
       "black": "#000000",
       "red": "#990000",
       "green": "#00a600",
@@ -1585,7 +1657,8 @@
       "cursorColor": "#00ff00"
     },
     {
-      "name": "Hurtado",
+      "name": "hurtado.sh",
+      "label": "Hurtado",
       "black": "#575757",
       "red": "#ff1b00",
       "green": "#a5e055",
@@ -1607,7 +1680,8 @@
       "cursorColor": "#dbdbdb"
     },
     {
-      "name": "Hybrid",
+      "name": "hybrid.sh",
+      "label": "Hybrid",
       "black": "#282a2e",
       "red": "#A54242",
       "green": "#8C9440",
@@ -1629,7 +1703,8 @@
       "cursorColor": "#94a3a5"
     },
     {
-      "name": "ibm3270",
+      "name": "ibm3270.sh",
+      "label": "ibm3270",
       "black": "#222222",
       "red": "#F01818",
       "green": "#24D830",
@@ -1651,7 +1726,8 @@
       "cursorColor": "#FDFDFD"
     },
     {
-      "name": "ICGreenPPL",
+      "name": "ic-green-ppl.sh",
+      "label": "ICGreenPPL",
       "black": "#1f1f1f",
       "red": "#fb002a",
       "green": "#339c24",
@@ -1673,7 +1749,8 @@
       "cursorColor": "#d9efd3"
     },
     {
-      "name": "ICOrangePPL",
+      "name": "ic-orange-ppl.sh",
+      "label": "ICOrangePPL",
       "black": "#000000",
       "red": "#c13900",
       "green": "#a4a900",
@@ -1695,7 +1772,8 @@
       "cursorColor": "#ffcb83"
     },
     {
-      "name": "IdleToes",
+      "name": "idle-toes.sh",
+      "label": "IdleToes",
       "black": "#323232",
       "red": "#d25252",
       "green": "#7fe173",
@@ -1717,7 +1795,8 @@
       "cursorColor": "#ffffff"
     },
     {
-      "name": "IrBlack",
+      "name": "ir-black.sh",
+      "label": "IrBlack",
       "black": "#4e4e4e",
       "red": "#ff6c60",
       "green": "#a8ff60",
@@ -1739,7 +1818,8 @@
       "cursorColor": "#ffa560"
     },
     {
-      "name": "JackieBrown",
+      "name": "jackie-brown.sh",
+      "label": "JackieBrown",
       "black": "#2c1d16",
       "red": "#ef5734",
       "green": "#2baf2b",
@@ -1761,7 +1841,8 @@
       "cursorColor": "#ffcc2f"
     },
     {
-      "name": "Japanesque",
+      "name": "japanesque.sh",
+      "label": "Japanesque",
       "black": "#343935",
       "red": "#cf3f61",
       "green": "#7bb75b",
@@ -1783,7 +1864,8 @@
       "cursorColor": "#f7f6ec"
     },
     {
-      "name": "Jellybeans",
+      "name": "jellybeans.sh",
+      "label": "Jellybeans",
       "black": "#929292",
       "red": "#e27373",
       "green": "#94b979",
@@ -1805,7 +1887,8 @@
       "cursorColor": "#dedede"
     },
     {
-      "name": "Jup",
+      "name": "jup.sh",
+      "label": "Jup",
       "black": "#000000",
       "red": "#dd006f",
       "green": "#6fdd00",
@@ -1827,7 +1910,8 @@
       "cursorColor": "#23476a"
     },
     {
-      "name": "Kibble",
+      "name": "kibble.sh",
+      "label": "Kibble",
       "black": "#4d4d4d",
       "red": "#c70031",
       "green": "#29cf13",
@@ -1849,7 +1933,8 @@
       "cursorColor": "#f7f7f7"
     },
     {
-      "name": "kokuban",
+      "name": "kokuban.sh",
+      "label": "kokuban",
       "black": "#2E8744",
       "red": "#D84E4C",
       "green": "#95DA5A",
@@ -1871,7 +1956,8 @@
       "cursorColor": "#D8E2D7"
     },
     {
-      "name": "LaterThisEvening",
+      "name": "later-this-evening.sh",
+      "label": "LaterThisEvening",
       "black": "#2b2b2b",
       "red": "#d45a60",
       "green": "#afba67",
@@ -1893,7 +1979,8 @@
       "cursorColor": "#959595"
     },
     {
-      "name": "Lavandula",
+      "name": "lavandula.sh",
+      "label": "Lavandula",
       "black": "#230046",
       "red": "#7d1625",
       "green": "#337e6f",
@@ -1915,7 +2002,8 @@
       "cursorColor": "#736e7d"
     },
     {
-      "name": "LiquidCarbon",
+      "name": "liquid-carbon.sh",
+      "label": "LiquidCarbon",
       "black": "#000000",
       "red": "#ff3030",
       "green": "#559a70",
@@ -1937,7 +2025,8 @@
       "cursorColor": "#afc2c2"
     },
     {
-      "name": "LiquidCarbonTransparent",
+      "name": "liquid-carbon-transparent.sh",
+      "label": "LiquidCarbonTransparent",
       "black": "#000000",
       "red": "#ff3030",
       "green": "#559a70",
@@ -1959,7 +2048,8 @@
       "cursorColor": "#afc2c2"
     },
     {
-      "name": "Maia",
+      "name": "maia.sh",
+      "label": "Maia",
       "black": "#232423",
       "red": "#BA2922",
       "green": "#7E807E",
@@ -1981,7 +2071,8 @@
       "cursorColor": "#BDC3C7"
     },
     {
-      "name": "ManPage",
+      "name": "man-page.sh",
+      "label": "ManPage",
       "black": "#000000",
       "red": "#cc0000",
       "green": "#00a600",
@@ -2003,7 +2094,8 @@
       "cursorColor": "#000000"
     },
     {
-      "name": "Mar",
+      "name": "mar.sh",
+      "label": "Mar",
       "black": "#000000",
       "red": "#b5407b",
       "green": "#7bb540",
@@ -2025,7 +2117,8 @@
       "cursorColor": "#23476a"
     },
     {
-      "name": "Material",
+      "name": "material.sh",
+      "label": "Material",
       "black": "#073641",
       "red": "#EB606B",
       "green": "#C3E88D",
@@ -2047,7 +2140,8 @@
       "cursorColor": "#657B83"
     },
     {
-      "name": "Mathias",
+      "name": "mathias.sh",
+      "label": "Mathias",
       "black": "#000000",
       "red": "#e52222",
       "green": "#a6e32d",
@@ -2069,7 +2163,8 @@
       "cursorColor": "#bbbbbb"
     },
     {
-      "name": "Medallion",
+      "name": "medallion.sh",
+      "label": "Medallion",
       "black": "#000000",
       "red": "#b64c00",
       "green": "#7c8b16",
@@ -2091,7 +2186,8 @@
       "cursorColor": "#cac296"
     },
     {
-      "name": "Misterioso",
+      "name": "misterioso.sh",
+      "label": "Misterioso",
       "black": "#000000",
       "red": "#ff4242",
       "green": "#74af68",
@@ -2113,7 +2209,8 @@
       "cursorColor": "#e1e1e0"
     },
     {
-      "name": "Miu",
+      "name": "miu.sh",
+      "label": "Miu",
       "black": "#000000",
       "red": "#b87a7a",
       "green": "#7ab87a",
@@ -2135,7 +2232,8 @@
       "cursorColor": "#d9e6f2"
     },
     {
-      "name": "Molokai",
+      "name": "molokai.sh",
+      "label": "Molokai",
       "black": "#1b1d1e",
       "red": "#7325FA",
       "green": "#23E298",
@@ -2157,7 +2255,8 @@
       "cursorColor": "#BBBBBB"
     },
     {
-      "name": "MonaLisa",
+      "name": "mona-lisa.sh",
+      "label": "MonaLisa",
       "black": "#351b0e",
       "red": "#9b291c",
       "green": "#636232",
@@ -2179,7 +2278,8 @@
       "cursorColor": "#f7d66a"
     },
     {
-      "name": "mono-amber",
+      "name": "mono-amber.sh",
+      "label": "mono-amber",
       "black": "#402500",
       "red": "#FF9400",
       "green": "#FF9400",
@@ -2201,7 +2301,8 @@
       "cursorColor": "#FF9400"
     },
     {
-      "name": "mono-cyan",
+      "name": "mono-cyan.sh",
+      "label": "mono-cyan",
       "black": "#003340",
       "red": "#00CCFF",
       "green": "#00CCFF",
@@ -2223,7 +2324,8 @@
       "cursorColor": "#00CCFF"
     },
     {
-      "name": "mono-green",
+      "name": "mono-green.sh",
+      "label": "mono-green",
       "black": "#034000",
       "red": "#0BFF00",
       "green": "#0BFF00",
@@ -2245,7 +2347,8 @@
       "cursorColor": "#0BFF00"
     },
     {
-      "name": "MonokaiDark",
+      "name": "monokai-dark.sh",
+      "label": "MonokaiDark",
       "black": "#75715e",
       "red": "#f92672",
       "green": "#a6e22e",
@@ -2267,7 +2370,8 @@
       "cursorColor": "#f8f8f2"
     },
     {
-      "name": "MonokaiSoda",
+      "name": "monokai-soda.sh",
+      "label": "MonokaiSoda",
       "black": "#1a1a1a",
       "red": "#f4005f",
       "green": "#98e024",
@@ -2289,7 +2393,8 @@
       "cursorColor": "#c4c5b5"
     },
     {
-      "name": "mono-red",
+      "name": "mono-red.sh",
+      "label": "mono-red",
       "black": "#401200",
       "red": "#FF3600",
       "green": "#FF3600",
@@ -2311,7 +2416,8 @@
       "cursorColor": "#FF3600"
     },
     {
-      "name": "mono-white",
+      "name": "mono-white.sh",
+      "label": "mono-white",
       "black": "#3B3B3B",
       "red": "#FAFAFA",
       "green": "#FAFAFA",
@@ -2333,7 +2439,8 @@
       "cursorColor": "#FAFAFA"
     },
     {
-      "name": "mono-yellow",
+      "name": "mono-yellow.sh",
+      "label": "mono-yellow",
       "black": "#403500",
       "red": "#FFD300",
       "green": "#FFD300",
@@ -2355,7 +2462,8 @@
       "cursorColor": "#FFD300"
     },
     {
-      "name": "N0tch2k",
+      "name": "n0tch2k.sh",
+      "label": "N0tch2k",
       "black": "#383838",
       "red": "#a95551",
       "green": "#666666",
@@ -2377,7 +2485,8 @@
       "cursorColor": "#a0a0a0"
     },
     {
-      "name": "neon-night",
+      "name": "neon-night.sh",
+      "label": "neon-night",
       "black": "#20242d",
       "red": "#FF8E8E",
       "green": "#7EFDD0",
@@ -2399,7 +2508,8 @@
       "cursorColor": "#C7C8FF"
     },
     {
-      "name": "Neopolitan",
+      "name": "neopolitan.sh",
+      "label": "Neopolitan",
       "black": "#000000",
       "red": "#800000",
       "green": "#61ce3c",
@@ -2421,7 +2531,8 @@
       "cursorColor": "#ffffff"
     },
     {
-      "name": "Nep",
+      "name": "nep.sh",
+      "label": "Nep",
       "black": "#000000",
       "red": "#dd6f00",
       "green": "#00dd6f",
@@ -2443,7 +2554,8 @@
       "cursorColor": "#23476a"
     },
     {
-      "name": "Neutron",
+      "name": "neutron.sh",
+      "label": "Neutron",
       "black": "#23252b",
       "red": "#b54036",
       "green": "#5ab977",
@@ -2465,7 +2577,8 @@
       "cursorColor": "#e6e8ef"
     },
     {
-      "name": "NightlionV1",
+      "name": "nightlion-v1.sh",
+      "label": "NightlionV1",
       "black": "#4c4c4c",
       "red": "#bb0000",
       "green": "#5fde8f",
@@ -2487,7 +2600,8 @@
       "cursorColor": "#bbbbbb"
     },
     {
-      "name": "NightlionV2",
+      "name": "nightlion-v2.sh",
+      "label": "NightlionV2",
       "black": "#4c4c4c",
       "red": "#bb0000",
       "green": "#04f623",
@@ -2509,7 +2623,8 @@
       "cursorColor": "#bbbbbb"
     },
     {
-      "name": "NightOwl",
+      "name": "night-owl.sh",
+      "label": "NightOwl",
       "black": "#011627",
       "red": "#EF5350",
       "green": "#22da6e",
@@ -2531,7 +2646,8 @@
       "cursorColor": "#d6deeb"
     },
     {
-      "name": "nighty",
+      "name": "nighty.sh",
+      "label": "nighty",
       "black": "#373D48",
       "red": "#9B3E46",
       "green": "#095B32",
@@ -2553,7 +2669,8 @@
       "cursorColor": "#DFDFDF"
     },
     {
-      "name": "NordLight",
+      "name": "nord-light.sh",
+      "label": "NordLight",
       "black": "#353535",
       "red": "#E64569",
       "green": "#89D287",
@@ -2575,7 +2692,8 @@
       "cursorColor": "#439ECF"
     },
     {
-      "name": "Nord",
+      "name": "nord.sh",
+      "label": "Nord",
       "black": "#353535",
       "red": "#E64569",
       "green": "#89D287",
@@ -2597,7 +2715,8 @@
       "cursorColor": "#439ECF"
     },
     {
-      "name": "Novel",
+      "name": "novel.sh",
+      "label": "Novel",
       "black": "#000000",
       "red": "#cc0000",
       "green": "#009600",
@@ -2619,7 +2738,8 @@
       "cursorColor": "#3b2322"
     },
     {
-      "name": "Obsidian",
+      "name": "obsidian.sh",
+      "label": "Obsidian",
       "black": "#000000",
       "red": "#a60001",
       "green": "#00bb00",
@@ -2641,7 +2761,8 @@
       "cursorColor": "#cdcdcd"
     },
     {
-      "name": "OceanDark",
+      "name": "ocean-dark.sh",
+      "label": "OceanDark",
       "black": "#4F4F4F",
       "red": "#AF4B57",
       "green": "#AFD383",
@@ -2663,7 +2784,8 @@
       "cursorColor": "#979CAC"
     },
     {
-      "name": "OceanicNext",
+      "name": "oceanic-next.sh",
+      "label": "OceanicNext",
       "black": "#121C21",
       "red": "#E44754",
       "green": "#89BD82",
@@ -2685,7 +2807,8 @@
       "cursorColor": "#b3b8c3"
     },
     {
-      "name": "Ocean",
+      "name": "ocean.sh",
+      "label": "Ocean",
       "black": "#000000",
       "red": "#990000",
       "green": "#00a600",
@@ -2707,7 +2830,8 @@
       "cursorColor": "#ffffff"
     },
     {
-      "name": "Ollie",
+      "name": "ollie.sh",
+      "label": "Ollie",
       "black": "#000000",
       "red": "#ac2e31",
       "green": "#31ac61",
@@ -2729,7 +2853,8 @@
       "cursorColor": "#8a8dae"
     },
     {
-      "name": "Omni",
+      "name": "omni.sh",
+      "label": "Omni",
       "black": "#191622",
       "red": "#E96379",
       "green": "#67e480",
@@ -2751,7 +2876,8 @@
       "cursorColor": "#ABB2BF"
     },
     {
-      "name": "OneDark",
+      "name": "one-dark.sh",
+      "label": "OneDark",
       "black": "#000000",
       "red": "#E06C75",
       "green": "#98C379",
@@ -2773,7 +2899,8 @@
       "cursorColor": "#5C6370"
     },
     {
-      "name": "OneHalfBlack",
+      "name": "one-half-black.sh",
+      "label": "OneHalfBlack",
       "black": "#282c34",
       "red": "#e06c75",
       "green": "#98c379",
@@ -2795,7 +2922,8 @@
       "cursorColor": "#dcdfe4"
     },
     {
-      "name": "OneLight",
+      "name": "one-light.sh",
+      "label": "OneLight",
       "black": "#000000",
       "red": "#DA3E39",
       "green": "#41933E",
@@ -2817,7 +2945,8 @@
       "cursorColor": "#2A2B32"
     },
     {
-      "name": "palenight",
+      "name": "palenight.sh",
+      "label": "palenight",
       "black": "#292D3E",
       "red": "#F07178",
       "green": "#C3E88D",
@@ -2839,7 +2968,8 @@
       "cursorColor": "#BFC7D5"
     },
     {
-      "name": "Pali",
+      "name": "pali.sh",
+      "label": "Pali",
       "black": "#0a0a0a",
       "red": "#ab8f74",
       "green": "#74ab8f",
@@ -2861,7 +2991,8 @@
       "cursorColor": "#d9e6f2"
     },
     {
-      "name": "Panda",
+      "name": "panda.sh",
+      "label": "Panda",
       "black": "#1F1F20",
       "red": "#FB055A",
       "green": "#26FFD4",
@@ -2883,7 +3014,8 @@
       "cursorColor": "#F0F0F0"
     },
     {
-      "name": "PaperColorDark",
+      "name": "papercolor-dark.sh",
+      "label": "PaperColorDark",
       "black": "#1C1C1C",
       "red": "#AF005F",
       "green": "#5FAF00",
@@ -2905,7 +3037,8 @@
       "cursorColor": "#D0D0D0"
     },
     {
-      "name": "PaperColorLight",
+      "name": "papercolor-light.sh",
+      "label": "PaperColorLight",
       "black": "#EEEEEE",
       "red": "#AF0000",
       "green": "#008700",
@@ -2927,7 +3060,8 @@
       "cursorColor": "#444444"
     },
     {
-      "name": "ParaisoDark",
+      "name": "paraiso-dark.sh",
+      "label": "ParaisoDark",
       "black": "#2f1e2e",
       "red": "#ef6155",
       "green": "#48b685",
@@ -2949,7 +3083,8 @@
       "cursorColor": "#a39e9b"
     },
     {
-      "name": "PaulMillr",
+      "name": "paul-millr.sh",
+      "label": "PaulMillr",
       "black": "#2a2a2a",
       "red": "#ff0000",
       "green": "#79ff0f",
@@ -2971,7 +3106,8 @@
       "cursorColor": "#f2f2f2"
     },
     {
-      "name": "PencilDark",
+      "name": "pencil-dark.sh",
+      "label": "PencilDark",
       "black": "#212121",
       "red": "#c30771",
       "green": "#10a778",
@@ -2993,7 +3129,8 @@
       "cursorColor": "#f1f1f1"
     },
     {
-      "name": "PencilLight",
+      "name": "pencil-light.sh",
+      "label": "PencilLight",
       "black": "#212121",
       "red": "#c30771",
       "green": "#10a778",
@@ -3015,7 +3152,8 @@
       "cursorColor": "#424242"
     },
     {
-      "name": "Peppermint",
+      "name": "peppermint.sh",
+      "label": "Peppermint",
       "black": "#353535",
       "red": "#E64569",
       "green": "#89D287",
@@ -3037,7 +3175,8 @@
       "cursorColor": "#BBBBBB"
     },
     {
-      "name": "Pnevma",
+      "name": "pnevma.sh",
+      "label": "Pnevma",
       "black": "#2f2e2d",
       "red": "#a36666",
       "green": "#90a57d",
@@ -3059,7 +3198,8 @@
       "cursorColor": "#d0d0d0"
     },
     {
-      "name": "PowerShell",
+      "name": "powershell.sh",
+      "label": "PowerShell",
       "black": "#000000",
       "red": "#7E0008",
       "green": "#098003",
@@ -3081,7 +3221,8 @@
       "cursorColor": "#F6F6F7"
     },
     {
-      "name": "Pro",
+      "name": "pro.sh",
+      "label": "Pro",
       "black": "#000000",
       "red": "#990000",
       "green": "#00a600",
@@ -3103,7 +3244,8 @@
       "cursorColor": "#f2f2f2"
     },
     {
-      "name": "RedAlert",
+      "name": "red-alert.sh",
+      "label": "RedAlert",
       "black": "#000000",
       "red": "#d62e4e",
       "green": "#71be6b",
@@ -3125,7 +3267,8 @@
       "cursorColor": "#ffffff"
     },
     {
-      "name": "RedSands",
+      "name": "red-sands.sh",
+      "label": "RedSands",
       "black": "#000000",
       "red": "#ff3f00",
       "green": "#00bb00",
@@ -3147,7 +3290,8 @@
       "cursorColor": "#d7c9a7"
     },
     {
-      "name": "Relaxed",
+      "name": "relaxed.sh",
+      "label": "Relaxed",
       "black": "#151515",
       "red": "#BC5653",
       "green": "#909D63",
@@ -3169,7 +3313,8 @@
       "cursorColor": "#D9D9D9"
     },
     {
-      "name": "Rippedcasts",
+      "name": "rippedcasts.sh",
+      "label": "Rippedcasts",
       "black": "#000000",
       "red": "#cdaf95",
       "green": "#a8ff60",
@@ -3191,7 +3336,8 @@
       "cursorColor": "#ffffff"
     },
     {
-      "name": "Royal",
+      "name": "royal.sh",
+      "label": "Royal",
       "black": "#241f2b",
       "red": "#91284c",
       "green": "#23801c",
@@ -3213,7 +3359,8 @@
       "cursorColor": "#514968"
     },
     {
-      "name": "Sat",
+      "name": "sat.sh",
+      "label": "Sat",
       "black": "#000000",
       "red": "#dd0007",
       "green": "#07dd00",
@@ -3235,7 +3382,8 @@
       "cursorColor": "#23476a"
     },
     {
-      "name": "SeafoamPastel",
+      "name": "seafoam-pastel.sh",
+      "label": "SeafoamPastel",
       "black": "#757575",
       "red": "#825d4d",
       "green": "#728c62",
@@ -3257,7 +3405,8 @@
       "cursorColor": "#d4e7d4"
     },
     {
-      "name": "SeaShells",
+      "name": "sea-shells.sh",
+      "label": "SeaShells",
       "black": "#17384c",
       "red": "#d15123",
       "green": "#027c9b",
@@ -3279,7 +3428,8 @@
       "cursorColor": "#deb88d"
     },
     {
-      "name": "Seti",
+      "name": "seti.sh",
+      "label": "Seti",
       "black": "#323232",
       "red": "#c22832",
       "green": "#8ec43d",
@@ -3301,7 +3451,8 @@
       "cursorColor": "#cacecd"
     },
     {
-      "name": "Shaman",
+      "name": "shaman.sh",
+      "label": "Shaman",
       "black": "#012026",
       "red": "#b2302d",
       "green": "#00a941",
@@ -3323,7 +3474,8 @@
       "cursorColor": "#405555"
     },
     {
-      "name": "Shel",
+      "name": "shel.sh",
+      "label": "Shel",
       "black": "#2c2423",
       "red": "#ab2463",
       "green": "#6ca323",
@@ -3345,7 +3497,8 @@
       "cursorColor": "#4882cd"
     },
     {
-      "name": "Slate",
+      "name": "slate.sh",
+      "label": "Slate",
       "black": "#222222",
       "red": "#e2a8bf",
       "green": "#81d778",
@@ -3367,7 +3520,8 @@
       "cursorColor": "#35b1d2"
     },
     {
-      "name": "Smyck",
+      "name": "smyck.sh",
+      "label": "Smyck",
       "black": "#000000",
       "red": "#C75646",
       "green": "#8EB33B",
@@ -3389,7 +3543,8 @@
       "cursorColor": "#F7F7F7"
     },
     {
-      "name": "Snazzy",
+      "name": "snazzy.sh",
+      "label": "Snazzy",
       "black": "#282A36",
       "red": "#FF5C57",
       "green": "#5AF78E",
@@ -3411,7 +3566,8 @@
       "cursorColor": "#97979B"
     },
     {
-      "name": "SoftServer",
+      "name": "soft-server.sh",
+      "label": "SoftServer",
       "black": "#000000",
       "red": "#a2686a",
       "green": "#9aa56a",
@@ -3433,7 +3589,8 @@
       "cursorColor": "#99a3a2"
     },
     {
-      "name": "SolarizedDarcula",
+      "name": "solarized-darcula.sh",
+      "label": "SolarizedDarcula",
       "black": "#25292a",
       "red": "#f24840",
       "green": "#629655",
@@ -3455,7 +3612,8 @@
       "cursorColor": "#d2d8d9"
     },
     {
-      "name": "SolarizedDarkHigherContrast",
+      "name": "solarized-dark-higher-contrast.sh",
+      "label": "SolarizedDarkHigherContrast",
       "black": "#002831",
       "red": "#d11c24",
       "green": "#6cbe6c",
@@ -3477,7 +3635,8 @@
       "cursorColor": "#9cc2c3"
     },
     {
-      "name": "SolarizedDark",
+      "name": "solarized-dark.sh",
+      "label": "SolarizedDark",
       "black": "#073642",
       "red": "#DC322F",
       "green": "#859900",
@@ -3499,7 +3658,8 @@
       "cursorColor": "#839496"
     },
     {
-      "name": "SolarizedLight",
+      "name": "solarized-light.sh",
+      "label": "SolarizedLight",
       "black": "#073642",
       "red": "#DC322F",
       "green": "#859900",
@@ -3521,7 +3681,8 @@
       "cursorColor": "#657B83"
     },
     {
-      "name": "Spacedust",
+      "name": "spacedust.sh",
+      "label": "Spacedust",
       "black": "#6e5346",
       "red": "#e35b00",
       "green": "#5cab96",
@@ -3543,7 +3704,8 @@
       "cursorColor": "#ecf0c1"
     },
     {
-      "name": "SpaceGrayEightiesDull",
+      "name": "spacegray-eighties-dull.sh",
+      "label": "SpaceGrayEightiesDull",
       "black": "#15171c",
       "red": "#b24a56",
       "green": "#92b477",
@@ -3565,7 +3727,8 @@
       "cursorColor": "#c9c6bc"
     },
     {
-      "name": "SpaceGrayEighties",
+      "name": "spacegray-eighties.sh",
+      "label": "SpaceGrayEighties",
       "black": "#15171c",
       "red": "#ec5f67",
       "green": "#81a764",
@@ -3587,7 +3750,8 @@
       "cursorColor": "#bdbaae"
     },
     {
-      "name": "SpaceGray",
+      "name": "spacegray.sh",
+      "label": "SpaceGray",
       "black": "#000000",
       "red": "#b04b57",
       "green": "#87b379",
@@ -3609,7 +3773,8 @@
       "cursorColor": "#b3b8c3"
     },
     {
-      "name": "Spring",
+      "name": "spring.sh",
+      "label": "Spring",
       "black": "#000000",
       "red": "#ff4d83",
       "green": "#1f8c3b",
@@ -3631,7 +3796,8 @@
       "cursorColor": "#ecf0c1"
     },
     {
-      "name": "Square",
+      "name": "square.sh",
+      "label": "Square",
       "black": "#050505",
       "red": "#e9897c",
       "green": "#b6377d",
@@ -3653,7 +3819,8 @@
       "cursorColor": "#a1a1a1"
     },
     {
-      "name": "Srcery",
+      "name": "srcery.sh",
+      "label": "Srcery",
       "black": "#1C1B19",
       "red": "#FF3128",
       "green": "#519F50",
@@ -3675,7 +3842,8 @@
       "cursorColor": "#ebdbb2"
     },
     {
-      "name": "summer-pop",
+      "name": "summer-pop.sh",
+      "label": "summer-pop",
       "black": "#666666",
       "red": "#FF1E8E",
       "green": "#8EFF1E",
@@ -3697,7 +3865,8 @@
       "cursorColor": "#FFFFFF"
     },
     {
-      "name": "Sundried",
+      "name": "sundried.sh",
+      "label": "Sundried",
       "black": "#302b2a",
       "red": "#a7463d",
       "green": "#587744",
@@ -3719,7 +3888,8 @@
       "cursorColor": "#c9c9c9"
     },
     {
-      "name": "SweetTerminal",
+      "name": "sweet.sh",
+      "label": "SweetTerminal",
       "black": "#3F3F54",
       "red": "#f60055",
       "green": "#06c993",
@@ -3741,7 +3911,8 @@
       "cursorColor": "#ffffff"
     },
     {
-      "name": "Symphonic",
+      "name": "symphonic.sh",
+      "label": "Symphonic",
       "black": "#000000",
       "red": "#dc322f",
       "green": "#56db3a",
@@ -3763,7 +3934,8 @@
       "cursorColor": "#ffffff"
     },
     {
-      "name": "SynthWave",
+      "name": "synthwave.sh",
+      "label": "SynthWave",
       "black": "#011627",
       "red": "#fe4450",
       "green": "#72f1b8",
@@ -3785,7 +3957,8 @@
       "cursorColor": "#03edf9"
     },
     {
-      "name": "Teerb",
+      "name": "teerb.sh",
+      "label": "Teerb",
       "black": "#1c1c1c",
       "red": "#d68686",
       "green": "#aed686",
@@ -3807,7 +3980,8 @@
       "cursorColor": "#d0d0d0"
     },
     {
-      "name": "TerminalBasic",
+      "name": "terminal-basic.sh",
+      "label": "TerminalBasic",
       "black": "#000000",
       "red": "#990000",
       "green": "#00a600",
@@ -3829,7 +4003,8 @@
       "cursorColor": "#000000"
     },
     {
-      "name": "TerminixDark",
+      "name": "terminix-dark.sh",
+      "label": "TerminixDark",
       "black": "#282a2e",
       "red": "#a54242",
       "green": "#a1b56c",
@@ -3851,7 +4026,8 @@
       "cursorColor": "#868A8C"
     },
     {
-      "name": "ThayerBright",
+      "name": "thayer-bright.sh",
+      "label": "ThayerBright",
       "black": "#1b1d1e",
       "red": "#f92672",
       "green": "#4df840",
@@ -3873,7 +4049,8 @@
       "cursorColor": "#f8f8f8"
     },
     {
-      "name": "Tin",
+      "name": "tin.sh",
+      "label": "Tin",
       "black": "#000000",
       "red": "#8d534e",
       "green": "#4e8d53",
@@ -3895,7 +4072,8 @@
       "cursorColor": "#ffffff"
     },
     {
-      "name": "TomorrowNightBlue",
+      "name": "tomorrow-night-blue.sh",
+      "label": "TomorrowNightBlue",
       "black": "#000000",
       "red": "#FF9DA3",
       "green": "#D1F1A9",
@@ -3917,7 +4095,8 @@
       "cursorColor": "#FFFEFE"
     },
     {
-      "name": "TomorrowNightBright",
+      "name": "tomorrow-night-bright.sh",
+      "label": "TomorrowNightBright",
       "black": "#000000",
       "red": "#D54E53",
       "green": "#B9CA49",
@@ -3939,7 +4118,8 @@
       "cursorColor": "#E9E9E9"
     },
     {
-      "name": "TomorrowNightEighties",
+      "name": "tomorrow-night-eighties.sh",
+      "label": "TomorrowNightEighties",
       "black": "#000000",
       "red": "#F27779",
       "green": "#99CC99",
@@ -3961,7 +4141,8 @@
       "cursorColor": "#CCCCCC"
     },
     {
-      "name": "TomorrowNight",
+      "name": "tomorrow-night.sh",
+      "label": "TomorrowNight",
       "black": "#000000",
       "red": "#CC6666",
       "green": "#B5BD68",
@@ -3983,7 +4164,8 @@
       "cursorColor": "#C4C8C5"
     },
     {
-      "name": "Tomorrow",
+      "name": "tomorrow.sh",
+      "label": "Tomorrow",
       "black": "#000000",
       "red": "#C82828",
       "green": "#718C00",
@@ -4005,7 +4187,8 @@
       "cursorColor": "#4C4C4C"
     },
     {
-      "name": "ToyChest",
+      "name": "toy-chest.sh",
+      "label": "ToyChest",
       "black": "#2c3f58",
       "red": "#be2d26",
       "green": "#1a9172",
@@ -4027,7 +4210,8 @@
       "cursorColor": "#31d07b"
     },
     {
-      "name": "Treehouse",
+      "name": "treehouse.sh",
+      "label": "Treehouse",
       "black": "#321300",
       "red": "#b2270e",
       "green": "#44a900",
@@ -4049,7 +4233,8 @@
       "cursorColor": "#786b53"
     },
     {
-      "name": "Twilight",
+      "name": "twilight.sh",
+      "label": "Twilight",
       "black": "#141414",
       "red": "#c06d44",
       "green": "#afb97a",
@@ -4071,7 +4256,8 @@
       "cursorColor": "#ffffd4"
     },
     {
-      "name": "Ura",
+      "name": "ura.sh",
+      "label": "Ura",
       "black": "#000000",
       "red": "#c21b6f",
       "green": "#6fc21b",
@@ -4093,7 +4279,8 @@
       "cursorColor": "#23476a"
     },
     {
-      "name": "Urple",
+      "name": "urple.sh",
+      "label": "Urple",
       "black": "#000000",
       "red": "#b0425b",
       "green": "#37a415",
@@ -4115,7 +4302,8 @@
       "cursorColor": "#877a9b"
     },
     {
-      "name": "Vag",
+      "name": "vag.sh",
+      "label": "Vag",
       "black": "#303030",
       "red": "#a87139",
       "green": "#39a871",
@@ -4137,7 +4325,8 @@
       "cursorColor": "#d9e6f2"
     },
     {
-      "name": "Vaughn",
+      "name": "vaughn.sh",
+      "label": "Vaughn",
       "black": "#25234f",
       "red": "#705050",
       "green": "#60b48a",
@@ -4159,7 +4348,8 @@
       "cursorColor": "#dcdccc"
     },
     {
-      "name": "VibrantInk",
+      "name": "vibrant-ink.sh",
+      "label": "VibrantInk",
       "black": "#878787",
       "red": "#ff6600",
       "green": "#ccff04",
@@ -4181,7 +4371,8 @@
       "cursorColor": "#ffffff"
     },
     {
-      "name": "VSCodeDark+",
+      "name": "vs-code-dark-plus.sh",
+      "label": "VSCodeDark+",
       "black": "#6A787A",
       "red": "#E9653B",
       "green": "#39E9A8",
@@ -4203,7 +4394,8 @@
       "cursorColor": "#CCCCCC"
     },
     {
-      "name": "WarmNeon",
+      "name": "warm-neon.sh",
+      "label": "WarmNeon",
       "black": "#000000",
       "red": "#e24346",
       "green": "#39b13a",
@@ -4225,7 +4417,8 @@
       "cursorColor": "#afdab6"
     },
     {
-      "name": "Wez",
+      "name": "wez.sh",
+      "label": "Wez",
       "black": "#000000",
       "red": "#cc5555",
       "green": "#55cc55",
@@ -4247,7 +4440,8 @@
       "cursorColor": "#b3b3b3"
     },
     {
-      "name": "WildCherry",
+      "name": "wild-cherry.sh",
+      "label": "WildCherry",
       "black": "#000507",
       "red": "#d94085",
       "green": "#2ab250",
@@ -4269,7 +4463,8 @@
       "cursorColor": "#dafaff"
     },
     {
-      "name": "Wombat",
+      "name": "wombat.sh",
+      "label": "Wombat",
       "black": "#000000",
       "red": "#ff615a",
       "green": "#b1e969",
@@ -4291,7 +4486,8 @@
       "cursorColor": "#dedacf"
     },
     {
-      "name": "Wryan",
+      "name": "wryan.sh",
+      "label": "Wryan",
       "black": "#333333",
       "red": "#8c4665",
       "green": "#287373",
@@ -4313,7 +4509,8 @@
       "cursorColor": "#999993"
     },
     {
-      "name": "Wzoreck",
+      "name": "wzoreck.sh",
+      "label": "Wzoreck",
       "black": "#2E3436",
       "red": "#FC6386",
       "green": "#424043",
@@ -4335,7 +4532,8 @@
       "cursorColor": "#FCFCFA"
     },
     {
-      "name": "Zenburn",
+      "name": "zenburn.sh",
+      "label": "Zenburn",
       "black": "#4d4d4d",
       "red": "#705050",
       "green": "#60b48a",
