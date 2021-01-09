@@ -5,7 +5,7 @@ cd client
 npm run build
 
 # remove old files
-rm -r ../public/static/
+rm -rf ../public/static/
 
 # move the new build file to public directory
 mv build/* ../public/
