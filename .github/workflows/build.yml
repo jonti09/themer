@@ -29,7 +29,7 @@ jobs:
         run: cd client && npm install
 
       - name: Run Build Script
-        run: npm run build && mv build release
+        run: cd client && npm run build && mv build release
 
       - name: Set environment for github-release
         run: |
