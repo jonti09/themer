@@ -35,4 +35,6 @@ jobs:
         uses: meeDamian/github-release@2.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          tag: v0.0.1
+          release: v0.0.1
           files: ./client/release
