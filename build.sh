@@ -1,14 +1,11 @@
 #!/bin/bash
 
-if [ $1 == 'dev' ]
-then
-    go run main.go
-else
-    cd client
-    npm run build
+# go to client directory
+cd client
+npm run build
 
-    cp -r build/* ../public/
-    rm -rf build
+# remove old files
+rm -r ../public/static/
 
-    cd ..
-fi
+# move the new build file to public directory
+mv build/* ../public/
