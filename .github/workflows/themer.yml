@@ -2,9 +2,8 @@ name: Themer Build
 
 # Run this workflow every time a new commit pushed to your repository
 on:
-  push:
-    branches:
-      - actions
+  release:
+    types: [created]
 
 jobs:
   releases-matrix:
@@ -18,4 +17,3 @@ jobs:
           goos: "linux"
           goarch: "amd64"
           goversion: "https://dl.google.com/go/go1.15.6.linux-amd64.tar.gz"
-          release_tag: "themer"
