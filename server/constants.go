@@ -1,12 +1,17 @@
 package server
 
 import (
-	"os"
+	"os/user"
 	"path"
 )
 
-var cwd, _ = os.Getwd()
-var themesPath = path.Join(cwd, "data", "themes.json")
-var themesDir = path.Join(cwd, "data", "themes")
-var publicDir = path.Join(cwd, "public")
+var asset = "public.tgz"
+
+var usr, _ = user.Current()
+var homeDir = usr.HomeDir
+var workingDir = path.Join(homeDir, ".config", "themer")
+
+var publicDir = path.Join(workingDir, "public")
+var themesPath = path.Join(publicDir, "data", "themes.json")
+var themesDir = path.Join(publicDir, "data", "themes")
 var staticDir = path.Join(publicDir, "static")
