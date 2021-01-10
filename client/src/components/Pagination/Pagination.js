@@ -22,7 +22,9 @@ export const Pagination = ({ pages, activePage, setActivePage }) => {
       ))}
       <div
         onClick={() =>
-          setActivePage(activePage < pages.length ? activePage + 1 : 0)
+          setActivePage(
+            activePage < pages.length - 1 ? activePage + 1 : pages.length - 1
+          )
         }
         className={style.arrow}
       >
