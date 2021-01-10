@@ -44,6 +44,6 @@ func StartAndListen() {
 	setupStaticHandler()
 	http.HandleFunc("/themes/", listThemesAPI)
 	http.HandleFunc("/apply/", applyThemeAPI)
-	log.Printf("Starting the server on: http://localhost:%d/\n", 8000)
+	log.Printf("Starting the server on http://localhost:%d/\n", 8000)
 	log.Fatal(http.ListenAndServe(":8000", nil))
 }

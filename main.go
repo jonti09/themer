@@ -1,10 +1,14 @@
 package main
 
 import (
+	"os"
+
 	"github.com/jonti09/themer/server"
 )
 
 func main() {
-	server.Init()
+	if os.Args[1] != "--dev" {
+		server.Init()
+	}
 	server.StartAndListen()
 }
