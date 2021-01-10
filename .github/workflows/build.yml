@@ -4,7 +4,7 @@ name: Build
 on:
   push:
     branches:
-      - actions
+      - main
 
 jobs:
   # Set the job key. The key is displayed as the job name
@@ -29,12 +29,12 @@ jobs:
         run: cd client && npm install
 
       - name: Run Build Script
-        run: cd client && npm run build && mv build ../release
+        run: cd client && npm run build && mv build ../assets
 
       - name: Publish
         uses: meeDamian/github-release@2.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: latest
-          files: release
+          files: assets
           allow_override: true
