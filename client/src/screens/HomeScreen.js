@@ -7,7 +7,7 @@ const itemsPerPage = 9;
 
 export const HomeScreen = ({ themes, applyTheme }) => {
   const [activeCard, setActiveCard] = useState(-1);
-  const [activePage, setActivePage] = useState(1);
+  const [activePage, setActivePage] = useState(0);
 
   const themesForPage = themes.slice(
     activePage * itemsPerPage,
