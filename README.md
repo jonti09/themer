@@ -2,6 +2,16 @@
 
 A Golang powered, React rendered terminal theme utility <span style="font-size: 12px">(WIP)</span>
 
+## Prerequisites
+
+For THEMER to work, you will need to install the following packages.
+
+> Note: The support is limited to Ubuntu based distributions.
+
+```bash
+sudo apt-get install dconf-cli uuid-runtime
+```
+
 ## Usage
 
 Download the [executable binary](https://github.com/jonti09/themer/releases/download/latest/themer.tgz) from the [release page](https://github.com/jonti09/themer/releases/tag/latest) (themer.tgz)
@@ -33,9 +43,9 @@ Once the installation is successful, you can change your terminal theme like the
 
 ## Credits
 
-* Huge credit to [Mayccoll](https://github.com/Mayccoll) for their project [Gogh](https://github.com/Mayccoll/Gogh) from which the project is using the executable theme files!
+- Huge credit to [Mayccoll](https://github.com/Mayccoll) for their project [Gogh](https://github.com/Mayccoll/Gogh) from which the project is using the executable theme files!
 
-* Shout out to [meeDamian](https://github.com/meeDamian/) for their Github action, [github-release](https://github.com/meeDamian/github-release), which is what enables me to auto-release the executable binary as well as built assets for the project!
+- Shout out to [meeDamian](https://github.com/meeDamian/) for their Github action, [github-release](https://github.com/meeDamian/github-release), which is what enables me to auto-release the executable binary as well as built assets for the project!
 
 ## Development
 
