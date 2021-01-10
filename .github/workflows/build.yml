@@ -15,6 +15,12 @@ jobs:
     # Set the type of machine to run on
     runs-on: ubuntu-latest
 
+    strategy:
+      matrix:
+        # build and publish in parallel: linux/386, linux/amd64
+        goos: [linux]
+        goarch: ["386", amd64]
+
     steps:
       # Checks out a copy of your repository on the ubuntu-latest machine
       - name: Checkout code
@@ -35,8 +41,7 @@ jobs:
         uses: meeDamian/github-release@2.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          tag: v0.0.1
-          release: v0.0.1
+          tag: latest
           files: release
           allow_override: true
 
@@ -44,5 +49,6 @@ jobs:
         uses: wangyoucao577/go-release-action@v1.12
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          goos: linux
-          goarch: amd64
+          goos: ${{ matrix.goos }}
+          goarch: ${{ matrix.goarch }}
+          goversion: "https://dl.google.com/go/go1.15..linux-amd64.tar.gz"
