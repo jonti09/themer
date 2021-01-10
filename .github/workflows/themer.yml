@@ -1,0 +1,20 @@
+name: Themer Build
+
+# Run this workflow every time a new commit pushed to your repository
+on:
+  push:
+    branches:
+      - actions
+
+jobs:
+  releases-matrix:
+    name: Release Go Binary
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: wangyoucao577/go-release-action@v1.12
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          goos: "linux"
+          goarch: "amd64"
+          goversion: "https://dl.google.com/go/go1.15.6.linux-amd64.tar.gz"
