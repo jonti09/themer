@@ -4,7 +4,7 @@ name: Themer Build
 on:
   push:
     branches:
-      - actions
+      - main
 
 jobs:
   releases-matrix:
