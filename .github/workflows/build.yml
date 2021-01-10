@@ -38,11 +38,3 @@ jobs:
           tag: latest
           files: release
           allow_override: true
-
-      - name: Publish GO binary
-        uses: wangyoucao577/go-release-action@v1.12
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          goos: "linux"
-          goarch: "amd64"
-          goversion: "https://dl.google.com/go/go1.15.6.linux-amd64.tar.gz"
