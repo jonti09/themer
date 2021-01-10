@@ -1,7 +1,6 @@
 package server
 
 import (
-	"fmt"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -45,11 +44,17 @@ func getListOfThemes() ([]byte, error) {
 
 // ApplyTheme function takes a theme name and installs it in current terminal
 func applyTheme(theme string) ([]byte, error) {
-	log.Println("Applying the theme " + theme + " ...")
+	log.Println("Applying the theme: " + theme)
 	themeFilePath := path.Join(themesDir, theme)
 	cmd := exec.Command("x-terminal-emulator", "-e", "bash", themeFilePath)
 
-	fmt.Println(cmd)
-
 	return cmd.CombinedOutput()
+}
+
+func fileExists(name string) bool {
+	info, err := os.Stat(name)
+	if os.IsNotExist(err) {
+		return false
+	}
+	return !info.IsDir()
 }
