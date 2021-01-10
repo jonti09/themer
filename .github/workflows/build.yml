@@ -4,7 +4,7 @@ name: Build
 on:
   push:
     branches:
-      - main
+      - actions
 
 jobs:
   # Set the job key. The key is displayed as the job name
@@ -39,3 +39,10 @@ jobs:
           release: v0.0.1
           files: release
           allow_override: true
+
+      - name: Publish GO binary
+        uses: wangyoucao577/go-release-action@v1.12
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            goos: linux
+            goarch: amd64
