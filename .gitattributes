@@ -1,1 +1,1 @@
-./data/themes/* linguist-vendored
+*.sh linguist-detectable=false
