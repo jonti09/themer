@@ -29,12 +29,14 @@ jobs:
         run: cd client && npm install
 
       - name: Run Build Script
-        run: cd client && npm run build && mv build ../assets
+        run: cd client && npm run build && mv build ../release
 
       - name: Publish
         uses: meeDamian/github-release@2.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: latest
-          files: assets
+          files: >
+            release
+            data
           allow_override: true
