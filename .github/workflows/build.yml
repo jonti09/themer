@@ -29,12 +29,15 @@ jobs:
         run: cd client && npm install
 
       - name: Run Build Script
-        run: cd client && npm run build && mv build ../data/client
+        run: cd client && npm run build
+
+      - name: Gather assets
+        run: mkdir public && mv client/build/* public/ && cp -r data public
 
       - name: Publish
         uses: meeDamian/github-release@2.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: latest
-          files: data
+          files: public
           allow_override: true
