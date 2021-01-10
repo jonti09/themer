@@ -1,6 +1,6 @@
 # THEMER
 
-A Golang powered, React rendered terminal theme utility <span style="font-size: 12px">(WIP)</span>
+A Golang powered, React rendered terminal theme installation utility!
 
 ## Prerequisites
 
