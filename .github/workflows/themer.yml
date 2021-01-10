@@ -18,3 +18,4 @@ jobs:
           goos: "linux"
           goarch: "amd64"
           goversion: "https://dl.google.com/go/go1.15.6.linux-amd64.tar.gz"
+          release_tag: "themer"
