@@ -2,8 +2,9 @@ name: Themer Build
 
 # Run this workflow every time a new commit pushed to your repository
 on:
-  release:
-    types: [created]
+  push:
+    branches:
+      - actions
 
 jobs:
   releases-matrix:
@@ -11,9 +12,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: wangyoucao577/go-release-action@v1.12
+      - uses: actions/setup-go@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          goos: "linux"
-          goarch: "amd64"
-          goversion: "https://dl.google.com/go/go1.15.6.linux-amd64.tar.gz"
+          go-version: "^1.15.6" # The Go version to download (if necessary) and use.
+      - run: go build
+
+      - name: Publish
+        uses: meeDamian/github-release@2.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: latest
+          files: themer
+          allow_override: true
