@@ -44,10 +44,10 @@ func getListOfThemes() ([]byte, error) {
 
 // ApplyTheme function takes a theme name and installs it in current terminal
 func applyTheme(theme string) ([]byte, error) {
-	log.Println("Applying the theme: " + theme)
+	terminal := os.Getenv("TERMINAL")
+	log.Println("Applying the theme: " + theme + " in terminal " + terminal)
 	themeFilePath := path.Join(themesDir, theme)
-	cmd := exec.Command("x-terminal-emulator", "-e", "bash", themeFilePath)
-
+	cmd := exec.Command(themeFilePath)
 	return cmd.CombinedOutput()
 }
 
