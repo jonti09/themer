@@ -2,6 +2,8 @@
 
 A Golang powered, React rendered terminal theme utility <span style="font-size: 12px">(WIP)</span>
 
+![Themer In Action](https://github.com/jonti09/themer/blob/main/assets/images/themer.gif?raw=true)
+
 ## Prerequisites
 
 For THEMER to work, you will need to install the following packages.
@@ -31,7 +33,7 @@ Once the server has started, visit `http://localhost:8000/`. From there, you can
 
 Once the installation is successful, you can change your terminal theme like the following screenshot (check the `Profiles` section)
 
-![alt text](https://github.com/jonti09/themer/blob/main/assets/images/theme-selection.png?raw=true)
+![Apply Theme](https://github.com/jonti09/themer/blob/main/assets/images/theme-selection.png?raw=true)
 
 ## Features
 
