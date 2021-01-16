@@ -1,5 +1,7 @@
 name: Themer Build
 
+on: workflow_dispatch
+
 jobs:
   releases-matrix:
     name: Release Go Binary
