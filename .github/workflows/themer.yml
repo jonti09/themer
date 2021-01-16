@@ -1,11 +1,5 @@
 name: Themer Build
 
-# Run this workflow every time a new commit pushed to your repository
-on:
-  push:
-    branches:
-      - main
-
 jobs:
   releases-matrix:
     name: Release Go Binary
