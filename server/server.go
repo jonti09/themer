@@ -19,6 +19,7 @@ func listThemesAPI(w http.ResponseWriter, r *http.Request) {
 
 func applyThemeAPI(w http.ResponseWriter, r *http.Request) {
 	enableCORS(&w)
+	var output []byte
 
 	if r.Method == "POST" {
 		var theme themeStruct
@@ -29,7 +30,11 @@ func applyThemeAPI(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 
-		_, err = applyTheme(theme.Theme)
+		output, err = applyTheme(theme.Theme)
+		if err != nil {
+			// print error for debugging
+			log.Printf(string(output))
+		}
 		sendResponseOrError(w, err, []byte("Theme applied successfully"))
 	}
 }
